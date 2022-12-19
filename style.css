@@ -19,7 +19,7 @@ li {
 }
 
 a {
-    color: black;
+    color: #012236;
     text-decoration: none;
 }
 
@@ -42,11 +42,11 @@ a {
 }
 
 .nav-link {
-    transition: 0.7s ease;
+    transition: 0.2s;
 }
 
 .nav-link:hover {
-    color: aquamarine;
+    color: #f1f1f1;
 }
 
 .hamburger {
@@ -97,9 +97,9 @@ footer {
         position: fixed;
         left: -100%;
         gap: 0;
-        top: 70px;
+        top: 10px;
         flex-direction: column;
-        background-color: #28666e;
+        background-color: #7BC1FA;
         width: 100%;
         text-align: center;
         transition: 0.3s;
