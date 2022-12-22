@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/photos/favicon_preslova.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2574bb3b2c.js" crossorigin="anonymous"></script>
 
     <title>Dentální hygiena | Lucie Preslová</title>
 </head>
@@ -19,7 +21,7 @@
 
     <nav class="menu">
         <div class="logo">
-            <a href="#"><img src="/photos/logo_test.jpeg" alt="Lucie Preslová logo"></a>
+            <a href="#"><img src="/photos/logo_lucie_preslová.png" alt="Lucie Preslová logo"></a>
         </div>
         <ul class="nav-menu">
 
@@ -53,12 +55,45 @@
 </header>
 
 <body>
-    <div class="offer">
-        <h1>Co nabízíme?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur illo modi ipsa eligendi cumque veritatis, pariatur asperiores magni reiciendis quaerat ab vel sint eveniet unde, nesciunt repellat assumenda similique. Aspernatur!</p>
+    <h1>Co nabízíme?</h1>
+    <div class="offer_container">
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque doloribus excepturi ducimus minima perferendis quos, magni alias unde modi neque ipsum! Qui aliquid, illum maxime nisi molestias modi suscipit! Dolorem.</p>
+
+        <div class="offer offer_1">
+
+            <div class="offer-img">
+
+                <img src="photos/teeth.svg" alt="Lucie Preslová poskytované služby">
+            </div>
+            <div class="offer-body">
+                <h2>LOREM IMPUMS</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur illo modi ipsa eligendi cumque veritatis.</p>
+            </div>
+        </div>
+        <div class="offer offer_2">
+            <div class="offer-img">
+                <img src="photos/teeth_clean.svg" alt="Lucie Preslová poskytované služby">
+            </div>
+            <div class="offer-body">
+                <h2>LOREM IMPUMS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur illo modi ipsa eligendi cumque veritatis.</p>
+            </div>
+        </div>
+
+        <div class="offer offer_3">
+            <div class="offer-img">
+                <img src="photos/tools.svg" alt="Lucie Preslová poskytované služby">
+            </div>
+            <div class="offer-body">
+                <h2>LOREM IMPUMS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur illo modi ipsa eligendi cumque veritatis.</p>
+            </div>
+        </div>
+
+
     </div>
+
 
 
     <div class="form">
@@ -69,7 +104,7 @@
             <label for="email">E-mail</label> <br>
             <input type="email" id="email" name="email"> <br>
             <label for="telephone">Telefon</label> <br>
-            <input type="tel" id="telephone" name="telephone"> <br>
+            <input type="tel" id="telephone" name="telephone"><br>
 
             <label for="message">Vaše zpráva</label> <br>
             <textarea name="message" cols="40" rows="10" placeholder="Sem napiště svou zprávu..."></textarea><br>
@@ -80,59 +115,85 @@
         </form>
     </div>
 
-    <div class="news">
-        <h1>Aktuality</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, autem enim similique et perferendis quod praesentium veniam est accusamus pariatur sit voluptate atque, itaque facilis! Architecto similique minima consequuntur obcaecati!</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, autem enim similique et perferendis quod praesentium veniam est accusamus pariatur sit voluptate atque, itaque facilis! Architecto similique minima consequuntur obcaecati!</p>
-    </div>
 </body>
 
 <footer>
-    <div class="openinghours-container">
-        <div class="days-item">
-            <h2>Otevírací doba</h2>
-            <ul>
-                <li>PO</li>
-                <li>ÚT</li>
-                <li>ST</li>
-                <li>ČT</li>
-                <li>PÁ</li>
-                <li>SO</li>
-                <li>NE</li>
+
+
+    <div class="grid-container">
+        <div class="openinghours grid-item1">
+            <table>
+
+                <h4>Otevírací doba</h4>
+
+                <tr>
+
+                    <th>PO</th>
+                    <td>7:00 – 15:00</td>
+                </tr>
+                <tr>
+                    <th>ÚT</th>
+                    <td>7:00 – 18:00</td>
+                </tr>
+                <tr>
+                    <th>ST</th>
+                    <td>zavřeno</td>
+                </tr>
+                <tr>
+                    <th>ČT</th>
+                    <td>7:00 – 13:00</td>
+                </tr>
+                <tr>
+                    <th>PÁ</th>
+                    <td>zavřeno</td>
+                </tr>
+                <tr>
+                    <th>SO</th>
+                    <td>zavřeno</td>
+                </tr>
+                <tr>
+                    <th>NE</th>
+                    <td>zavřeno</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <div class="contact grid-item2">
+            <div class="contact-heading">
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <h4>Kontakt</h4>
+            </div>
+            <p>test@gmail.com</p>
+            <p>+420 786 998 883</p>
+
+
+            <div class="address-heading">
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <h4>Adresa</h4>
+            </div>
+            <p>Na testování</p>
+            <p>Písek</p>
+            <p>402 09</p>
+        </div>
+
+        <div class="sm grid-item3">
+            <ul class="socialmedia">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
             </ul>
         </div>
-        <div class="times-item">
-            <ul>
-                <li>9-17</li>
-                <li>9-17</li>
-                <li>9-17</li>
-                <li>9-17</li>
-                <li>9-17</li>
-                <li>Zavřeno</li>
-                <li>Zavřeno</li>
-            </ul>
+
+        <div class="map grid-item4">
+            <p>ssdds</p>
         </div>
+
+
     </div>
-
-    <div class="contact">
-        <h2>Kontakt</h2>
-        <p>@masdsds</p>
-        <p>+4230304</p>
-    </div>
-
-    <div class="adress">
-        <h2>Adresa</h2>
-        <p>Písek</p>
-        <p>4002</p>
-    </div>
-
-    <div class="map">
-        <p>ssdds</p>
-    </div>
-
-
-    <div class="autor">
+    <hr>
+    <div class="author">
         <p>© 2022, Klára Šteflová</p>
     </div>
 </footer>
